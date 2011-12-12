@@ -25,8 +25,8 @@ static SMDelayedBlockHandle perform_block_after_delay(CGFloat seconds, dispatch_
 			dispatch_async(dispatch_get_current_queue(), blockToExecute);
 		}
 		
-		// Once the handle block is executed, canceled or not, we free the block to execute and the handle itself.
-		// Doing this hear means that if the block is canceled, we aren't holding onto retained objects for any longer than necessary.
+		// Once the handle block is executed, canceled or not, we free blockToExecute and the handle.
+		// Doing this here means that if the block is canceled, we aren't holding onto retained objects for any longer than necessary.
 		[blockToExecute release];
 		blockToExecute = nil;
 		[delayHandleCopy release];
