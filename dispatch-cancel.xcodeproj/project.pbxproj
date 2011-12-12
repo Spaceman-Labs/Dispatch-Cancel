@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D7109D71495E78A0087E2C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7109D61495E78A0087E2C9 /* UIKit.framework */; };
+		3D7109D91495E78A0087E2C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7109D81495E78A0087E2C9 /* Foundation.framework */; };
+		3D7109DB1495E78A0087E2C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7109DA1495E78A0087E2C9 /* CoreGraphics.framework */; };
+		3D7109E11495E78A0087E2C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D7109DF1495E78A0087E2C9 /* InfoPlist.strings */; };
+		3D7109E31495E78A0087E2C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7109E21495E78A0087E2C9 /* main.m */; };
+		3D710A0C1495EF5B0087E2C9 /* SMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D710A061495EF5B0087E2C9 /* SMViewController.xib */; };
+		3D710A0D1495EF5B0087E2C9 /* SMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D710A091495EF5B0087E2C9 /* SMAppDelegate.m */; };
+		3D710A0E1495EF5B0087E2C9 /* SMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D710A0B1495EF5B0087E2C9 /* SMViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D7109D21495E78A0087E2C9 /* dispatch-cancel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dispatch-cancel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7109D61495E78A0087E2C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3D7109D81495E78A0087E2C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D7109DA1495E78A0087E2C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D7109DE1495E78A0087E2C9 /* dispatch-cancel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dispatch-cancel-Info.plist"; sourceTree = "<group>"; };
+		3D7109E01495E78A0087E2C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D7109E21495E78A0087E2C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D7109E41495E78A0087E2C9 /* dispatch-cancel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dispatch-cancel-Prefix.pch"; sourceTree = "<group>"; };
+		3D710A041495EF530087E2C9 /* SpacemanBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpacemanBlocks.h; sourceTree = "<group>"; };
+		3D710A071495EF5B0087E2C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SMViewController.xib; sourceTree = "<group>"; };
+		3D710A081495EF5B0087E2C9 /* SMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMAppDelegate.h; sourceTree = "<group>"; };
+		3D710A091495EF5B0087E2C9 /* SMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMAppDelegate.m; sourceTree = "<group>"; };
+		3D710A0A1495EF5B0087E2C9 /* SMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMViewController.h; sourceTree = "<group>"; };
+		3D710A0B1495EF5B0087E2C9 /* SMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D7109CF1495E78A0087E2C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7109D71495E78A0087E2C9 /* UIKit.framework in Frameworks */,
+				3D7109D91495E78A0087E2C9 /* Foundation.framework in Frameworks */,
+				3D7109DB1495E78A0087E2C9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D7109C71495E78A0087E2C9 = {
+			isa = PBXGroup;
+			children = (
+				3D7109DC1495E78A0087E2C9 /* dispatch-cancel */,
+				3D7109D51495E78A0087E2C9 /* Frameworks */,
+				3D7109D31495E78A0087E2C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D7109D31495E78A0087E2C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D7109D21495E78A0087E2C9 /* dispatch-cancel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D7109D51495E78A0087E2C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D7109D61495E78A0087E2C9 /* UIKit.framework */,
+				3D7109D81495E78A0087E2C9 /* Foundation.framework */,
+				3D7109DA1495E78A0087E2C9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D7109DC1495E78A0087E2C9 /* dispatch-cancel */ = {
+			isa = PBXGroup;
+			children = (
+				3D710A041495EF530087E2C9 /* SpacemanBlocks.h */,
+				3D710A081495EF5B0087E2C9 /* SMAppDelegate.h */,
+				3D710A091495EF5B0087E2C9 /* SMAppDelegate.m */,
+				3D710A0A1495EF5B0087E2C9 /* SMViewController.h */,
+				3D710A0B1495EF5B0087E2C9 /* SMViewController.m */,
+				3D710A061495EF5B0087E2C9 /* SMViewController.xib */,
+				3D7109DD1495E78A0087E2C9 /* Supporting Files */,
+			);
+			path = "dispatch-cancel";
+			sourceTree = "<group>";
+		};
+		3D7109DD1495E78A0087E2C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D7109DE1495E78A0087E2C9 /* dispatch-cancel-Info.plist */,
+				3D7109DF1495E78A0087E2C9 /* InfoPlist.strings */,
+				3D7109E21495E78A0087E2C9 /* main.m */,
+				3D7109E41495E78A0087E2C9 /* dispatch-cancel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D7109D11495E78A0087E2C9 /* dispatch-cancel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D7109F01495E78B0087E2C9 /* Build configuration list for PBXNativeTarget "dispatch-cancel" */;
+			buildPhases = (
+				3D7109CE1495E78A0087E2C9 /* Sources */,
+				3D7109CF1495E78A0087E2C9 /* Frameworks */,
+				3D7109D01495E78A0087E2C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dispatch-cancel";
+			productName = "dispatch-cancel";
+			productReference = 3D7109D21495E78A0087E2C9 /* dispatch-cancel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D7109C91495E78A0087E2C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3D7109CC1495E78A0087E2C9 /* Build configuration list for PBXProject "dispatch-cancel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3D7109C71495E78A0087E2C9;
+			productRefGroup = 3D7109D31495E78A0087E2C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D7109D11495E78A0087E2C9 /* dispatch-cancel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D7109D01495E78A0087E2C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7109E11495E78A0087E2C9 /* InfoPlist.strings in Resources */,
+				3D710A0C1495EF5B0087E2C9 /* SMViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D7109CE1495E78A0087E2C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7109E31495E78A0087E2C9 /* main.m in Sources */,
+				3D710A0D1495EF5B0087E2C9 /* SMAppDelegate.m in Sources */,
+				3D710A0E1495EF5B0087E2C9 /* SMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D7109DF1495E78A0087E2C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D7109E01495E78A0087E2C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3D710A061495EF5B0087E2C9 /* SMViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D710A071495EF5B0087E2C9 /* en */,
+			);
+			name = SMViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D7109EE1495E78B0087E2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D7109EF1495E78B0087E2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D7109F11495E78B0087E2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dispatch-cancel/dispatch-cancel-Prefix.pch";
+				INFOPLIST_FILE = "dispatch-cancel/dispatch-cancel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3D7109F21495E78B0087E2C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dispatch-cancel/dispatch-cancel-Prefix.pch";
+				INFOPLIST_FILE = "dispatch-cancel/dispatch-cancel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D7109CC1495E78A0087E2C9 /* Build configuration list for PBXProject "dispatch-cancel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7109EE1495E78B0087E2C9 /* Debug */,
+				3D7109EF1495E78B0087E2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D7109F01495E78B0087E2C9 /* Build configuration list for PBXNativeTarget "dispatch-cancel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7109F11495E78B0087E2C9 /* Debug */,
+				3D7109F21495E78B0087E2C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D7109C91495E78A0087E2C9 /* Project object */;
+}
