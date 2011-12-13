@@ -22,7 +22,7 @@ static SMDelayedBlockHandle perform_block_after_delay(CGFloat seconds, dispatch_
 	
 	SMDelayedBlockHandle delayHandle = ^(BOOL cancel){		
 		if (NO == cancel && nil != blockToExecute) {
-			dispatch_async(dispatch_get_current_queue(), blockToExecute);
+			dispatch_async(dispatch_get_main_queue(), blockToExecute);
 		}
 		
 		// Once the handle block is executed, canceled or not, we free blockToExecute and the handle.
@@ -36,7 +36,7 @@ static SMDelayedBlockHandle perform_block_after_delay(CGFloat seconds, dispatch_
 	// delayHandle also needs to be moved to the heap.
 	delayHandleCopy = [delayHandle copy];
 	
-	dispatch_after(dispatch_time(DISPATCH_TIME_NOW, seconds * NSEC_PER_SEC), dispatch_get_current_queue(), ^{
+	dispatch_after(dispatch_time(DISPATCH_TIME_NOW, seconds * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
 		if (nil != delayHandleCopy) {
 			delayHandleCopy(NO);
 		}
