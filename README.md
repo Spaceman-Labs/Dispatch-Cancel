@@ -3,6 +3,14 @@ README
 
 A convenience function for dispatching blocks after a delay, with the ability to cancel them.
 
+A little more info about the impetus for this code can be found in a blog post here: [http://www.ultrajoke.net/2011/12/cancel-dispatch_after/](http://www.ultrajoke.net/2011/12/cancel-dispatch_after/)
+
+
+SKIP TO THE GOOD STUFF
+-------
+The code is wrapped up in a project so it can be seen used in an example, but if you aren't interested in all the fluff, just grab the [SpacemanBlocks.h](https://github.com/Spaceman-Labs/Dispatch-Cancel/blob/master/dispatch-cancel/SpacemanBlocks.h) file
+
+
 HOW IT WORKS
 ------------
 
