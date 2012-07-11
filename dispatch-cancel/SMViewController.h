@@ -11,7 +11,7 @@
 
 @interface SMViewController : UIViewController
 {
-	__block SMDelayedBlockHandle _delayedBlockHandle;
+	SMDelayedBlockHandle _delayedBlockHandle;
 	BOOL _waiting;
 }
 
