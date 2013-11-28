@@ -29,10 +29,13 @@ static SMDelayedBlockHandle perform_block_after_delay(CGFloat seconds, dispatch_
 		// Doing this here means that if the block is canceled, we aren't holding onto retained objects for any longer than necessary.
 #if !__has_feature(objc_arc)
 		[blockToExecute release];
-		[delayHandleCopy release];
 #endif
 		
 		blockToExecute = nil;
+        
+#if !__has_feature(objc_arc)
+		[delayHandleCopy release];
+#endif
 		delayHandleCopy = nil;
 	};
 		
